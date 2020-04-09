@@ -1,13 +1,10 @@
 body {
-
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif; }
 
 a {
   color: #00B7FF; }
 
+.container {
+  padding-top: 2vh !important; }
 
-  .container {
-
-    padding-top: 2hv;
-  }
 /*# sourceMappingURL=style.css.map */
