@@ -51,8 +51,9 @@ app.locals.title = 'DealerSoft - DMS';
 
 
 
-const index = require('./routes/index');
-app.use('/', index);
+
+app.use('/', require('./routes/index'));
+app.use('/inventory', require('./routes/inventory'));
 
 
 module.exports = app;
