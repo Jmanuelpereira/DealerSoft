@@ -14,4 +14,4 @@ const vehicleSchema = new Schema(
   }
 );
 
-module.exports = model('Book', vehicleSchema);
+module.exports = model('Vehicle', vehicleSchema);

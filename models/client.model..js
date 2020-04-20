@@ -1,0 +1,14 @@
+const mongoose = require('mongoose');
+const { Schema, model } = mongoose;
+
+const clientSchema = new Schema(
+  {
+
+
+  },
+  {
+    timestamps: true
+  }
+);
+
+module.exports = model('Client', clientSchema);
