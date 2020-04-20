@@ -8,9 +8,9 @@ router.get('/inventory', (req, res, next) => {
 
   vehicleModel.find()
               .then(allData => {
-               res.render('../views/back-views/inventory-views/all-inventory');
+               res.render('back-views/inventory-views/all-inventory'), {data:allData};
               })
-
+              .catch(err => next(err))
 
 
 });
